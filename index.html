@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h2 class="question">Question 1:</h2>
+        <p>Which of the following HTML tags is used to create a heading?</p>
+        <div class="options">
+            <label>
+                <input type="radio" name="q1" value="a">
+                a) &lt;div&gt;
+            </label>
+            <label>
+                <input type="radio" name="q1" value="b">
+                b) &lt;p&gt;
+            </label>
+            <label>
+                <input type="radio" name="q1" value="c">
+                c) &lt;h1&gt;
+            </label>
+            <label>
+                <input type="radio" name="q1" value="d">
+                d) &lt;span&gt;
+            </label>
+        </div>
+        <button onclick="checkAnswer(1)">Submit Answer</button>
+        <p id="result1"></p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
