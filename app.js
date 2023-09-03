@@ -4,7 +4,7 @@
 
 
  // JavaScript code goes here
- function checkAnswer(questionNumber) {
+ function checkAnswer(questionNumber, checkAnswer) {
     var answer = document.querySelector('input[name="q' + questionNumber + '"]:checked');
     var result = document.getElementById('result' + questionNumber);
     
