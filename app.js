@@ -1,4 +1,8 @@
- 
+
+
+
+
+
  // JavaScript code goes here
  function checkAnswer(questionNumber) {
     var answer = document.querySelector('input[name="q' + questionNumber + '"]:checked');
@@ -10,3 +14,4 @@
         result.textContent = 'Incorrect. Try again.';
     }
 }
+
